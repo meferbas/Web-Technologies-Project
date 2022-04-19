@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #488FB1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
+.baslik{
+ margin: -8px !important;
+    
+}
+.baslikstil{
+    background-color: #085E7D;
+    color: #FFE4C0;
+    align-items: center;
+    display: flex;
+    color: whitesmoke;
+    justify-content: space-around;
+    height: 9vh;
+    flex-direction: row;
+    font-family: 'Overpass', sans-serif;
+    padding-top: 10px;
+    padding-left: 29%;
+ 
+}
+
+.baslikstil2{
+    background-color: #151D3B;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 17px;
+    margin-bottom: 10px;
+    padding-right: px;
+
+}
+.buttonstil{
+    padding-left: 100px; 
+    padding-bottom: 12px;
+    
+}
+.navbar{
+    background-color: #139487;
+    align-items: center;
+    display: flex;
+    color: whitesmoke;
+    justify-content: space-around;
+    height: 8vh;
+    width: 100%;
+    flex-direction: row;
+    padding-right: 500px;
+}
+.nav-item{
+    font-size: larger;
+    text-align: center;
+    width: 250px;
+    margin: 0 25px;
+
+}
+.nav-item:hover{
+    background-color: #533E85;
+    text-align: center; 
+    border-radius: 10px;
+
+
+}
+.nav-link{
+    color: aliceblue;
+    font-size: 120%;   
+
+}
+.nav-link:hover{
+    
+    color: #5de9d9;
+}
+.nav-link:active{
+    
+    color: #5de9d9;
+}
+
+.navbar .fas{
+    margin-right: 15px;
+}
+
+.active{
+    background-color: #533E85;;
+    
+    border-radius: 10px;
+}
