@@ -4,57 +4,94 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #488FB1;
+    
+    background-image: url(/webtechproje/images/pexels-fwstudio-163999.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    
     
 
 }
-.baslik{
- margin: -8px !important;
-    
+#transparent {
+    width: 100%;
+    height: 8vh;
+    background-color:#3a3636;
+    opacity:0.6;
+    filter:alpha(opacity=60);
+  
 }
-.baslikstil{
-    background-color: #085E7D;
+.firstdiv{
+    background-color: #266a83;
     color: #FFE4C0;
     align-items: center;
     display: flex;
     color: whitesmoke;
     justify-content: space-around;
-    height: 9vh;
+    height: 6vh;
     flex-direction: row;
     font-family: 'Overpass', sans-serif;
-    padding-top: 10px;
-    padding-left: 29%;
+    padding: auto;
  
 }
 
-.baslikstil2{
-    background-color: #151D3B;
-    color: aliceblue;
+.baslikstil{
+    
+    color: rgb(255, 255, 255);
     border-radius: 10px;
-    padding: 17px;
+    padding: 5px;
     margin-bottom: 10px;
-    padding-right: px;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    position: relative;
 
+    z-index: 2;
 }
 .buttonstil{
-    padding-left: 100px; 
-    padding-bottom: 12px;
+     
+    
+    position: relative;
+    left: 89%;
+    bottom: 60px;
+    z-index: 2;
+    
+}
+.navbar-header{
+    background-color: #727677;
+    width: 25%;
+    padding: 5px;
+    align-items: center;
+    position: relative;
+    bottom: 115px;
+    left: 720px;
+    border-radius: 20px;
     
 }
 .navbar{
-    background-color: #139487;
+    background-color:#3a3636;
+    opacity:0.6;
+    filter:alpha(opacity=80);
     align-items: center;
     display: flex;
-    color: whitesmoke;
     justify-content: space-around;
     height: 8vh;
     width: 100%;
     flex-direction: row;
     padding-right: 500px;
+    margin-top: -107px;
+}
+ul.uste{
+    position: relative;
+    top:-60px;
+    z-index: 2;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
 }
 .nav-item{
+    opacity:500;
+    filter:alpha(opacity=0);
+    font-weight: bold;
     font-size: larger;
     text-align: center;
     width: 250px;
@@ -75,14 +112,14 @@ body{
 }
 .nav-link:hover{
     
-    color: #5de9d9;
+    color: #4cfdc8;
 }
 .nav-link:active{
     
-    color: #5de9d9;
+    color: #4cfdc8;
 }
 
-.navbar .fas{
+.uste .fas{
     margin-right: 15px;
 }
 
