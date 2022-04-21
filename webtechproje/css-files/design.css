@@ -20,7 +20,7 @@ body{
   
 }
 .firstdiv{
-    background-color: #266a83;
+  
     color: #FFE4C0;
     align-items: center;
     display: flex;
@@ -33,37 +33,13 @@ body{
  
 }
 
-.baslikstil{
-    
-    color: rgb(255, 255, 255);
-    border-radius: 10px;
-    padding: 5px;
-    margin-bottom: 10px;
-    display: flex;
-    margin: auto;
-    justify-content: space-around;
-    position: relative;
 
-    z-index: 2;
-}
-.buttonstil{
+.buttonplace{
      
     
     position: relative;
-    left: 89%;
-    bottom: 60px;
-    z-index: 2;
-    
-}
-.navbar-header{
-    background-color: #727677;
-    width: 25%;
-    padding: 5px;
-    align-items: center;
-    position: relative;
-    bottom: 115px;
-    left: 720px;
-    border-radius: 20px;
+    right: 8px;
+    bottom: 1.5px;
     
 }
 .navbar{
@@ -77,11 +53,11 @@ body{
     width: 100%;
     flex-direction: row;
     padding-right: 500px;
-    margin-top: -107px;
+    margin-bottom: 10px;
 }
 ul.uste{
     position: relative;
-    top:-60px;
+    bottom: 70px;
     z-index: 2;
     align-items: center;
     justify-content: space-around;
@@ -89,19 +65,17 @@ ul.uste{
     flex-direction: row;
 }
 .nav-item{
-    opacity:500;
-    filter:alpha(opacity=0);
     font-weight: bold;
     font-size: larger;
     text-align: center;
-    width: 250px;
+    width: 200px;
     margin: 0 25px;
 
 }
 .nav-item:hover{
-    background-color: #533E85;
+    background-color: #eeeeeee8;
     text-align: center; 
-    border-radius: 10px;
+    border-radius: 30px;
 
 
 }
@@ -112,11 +86,11 @@ ul.uste{
 }
 .nav-link:hover{
     
-    color: #4cfdc8;
+    color: #00092C;
 }
 .nav-link:active{
     
-    color: #4cfdc8;
+    color: #00092C;
 }
 
 .uste .fas{
@@ -124,7 +98,8 @@ ul.uste{
 }
 
 .active{
-    background-color: #533E85;;
+    background-color: #eeeeeee8;;
+    color: #00092C;
     
-    border-radius: 10px;
+    border-radius: 30px;
 }
