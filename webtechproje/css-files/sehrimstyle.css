@@ -1,0 +1,64 @@
+.baslikstil{
+    text-align: center;
+    background-color: #125B50;
+    color: #ffffff;   
+    width: 30%;
+    border-radius: 25px;
+    padding: 1%;
+    
+}
+.baslikstil:hover{
+    background-color: #E8F9FD;
+    color: #000000;
+
+}
+.metinstil{
+    text-align: center;
+    border-radius: 25px;
+    font-weight: bold;
+    background-color: #79DAE8;
+    color: #190074;
+    position: relative;
+    top: 100px;
+    width: 120%;
+    font-size: larger;
+
+}
+.metinstil2{
+    text-align: center;
+    border-radius: 25px;
+    font-size: larger;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #251D3A;
+    position: relative;
+    width: 120%;
+    top: 140px;
+}
+.fa-person-hiking{
+    width: 15%;
+    margin-right: 10%;
+}
+.fa-mountain{
+    width: 15%;
+    margin-left: 7%;
+}
+.sliderstyle{
+    background-color: whitesmoke;
+    position: relative;
+    top: 200px;
+}
+.carousel-inner{
+    
+    width: 800px;
+    margin: 10%;
+    left: 18%;
+    
+}
+.carousel-control-prev{
+    left: 23%;
+}
+.carousel-control-next{
+    right: 25%;
+}
+

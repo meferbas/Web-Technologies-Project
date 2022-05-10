@@ -103,3 +103,33 @@ ul.uste{
     
     border-radius: 30px;
 }
+
+.resim{
+
+
+    width: 40%;
+    position: relative;
+    text-align: center;
+}
+#metin{
+  
+   position: relative;
+   top: 20px;
+   color: rgb(255, 255, 255);
+   background-color: rgb(168, 130, 59);
+   width: 40%;
+   padding-bottom: 1%;
+   border-radius: 20%;
+   
+}
+.hakkimdalink{
+
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    position: relative;
+    top: 10px;
+}
+.hakkimdalink:hover{
+    color: bisque;
+}
