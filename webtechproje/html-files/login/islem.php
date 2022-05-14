@@ -10,7 +10,7 @@ if(isset($_POST['username'])){
         
         echo 'Giriş başarılı, hoşgeldiniz g201210093'; 
         echo ' Birkaç saniye içerisinde anasayfaya yönlendirileceksiniz..';
-        header("Refresh: 3; url=http://127.0.0.1:5501/webtechproje/html-files/index.html");
+        header("Refresh: 3; url=http://mefeerbas.epizy.com/");
 
 
     }
