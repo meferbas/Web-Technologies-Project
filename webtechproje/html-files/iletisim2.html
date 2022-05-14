@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <center>
+            <h1>
+                Mesajınız iletilmiştir.
+            </h1>
+        </center>
+    </head>
+    <body>
+        İsminiz: <span id="result"></span> <br>
+        <script>
+            document.getElementById("result").innerHTML=localStorage.getItem("isim");
+        </script>
+        Mailiniz: <span id="result2"></span> <br>
+        <script>
+            document.getElementById("result2").innerHTML=localStorage.getItem("email");
+        </script>
+        Mesajınız: <span id="result3"></span> <br>
+        <script>
+            document.getElementById("result3").innerHTML=localStorage.getItem("mesaj");
+        </script>
+        <a href="/webtechproje/html-files/iletisim.html"> Geri Dön </a>
+    </body>
+</html>
